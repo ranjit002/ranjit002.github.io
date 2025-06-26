@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-UK"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Ranjit Singh's Blog"
+title                    : "Harry's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Ranjit Singh"
+name                     : "Ranjit Singh (Harry)"
 description              : "A welcoming space for sharing  insights, experiments and thoughts; everything from machine learning and quantum mechanics to materials science, photography, and the everyday curiosities that catch my eye."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ranjit Singh"
+  name             : "Ranjit Singh (Harry)"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Hey, I'm Ranjit. Sharing whatever's on my mind, from ML experiments and quantum quirks to photo adventures."
+  bio              : "Hey, I'm Harry. Sharing whatever's on my mind, from ML experiments and quantum quirks to photo adventures."
   location         : 
   email            : 
   links:

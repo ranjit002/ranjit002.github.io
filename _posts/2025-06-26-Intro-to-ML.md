@@ -185,7 +185,7 @@ A reason standardisation helps gradient descent is that it makes it easier to fi
 
 ## **Stochastic gradient descent**
 
-In the [perceptron](#perceptron) algorithm we used that required us to iterate over the entire training set. This can be very computationally expensive if our training set consists of a very large number of datapoints. Stochastic gradient descent (SGD) trains the model using single data points at a time.
+In the [perceptron section](#perceptron) we trained over the entire training set. This can be very computationally expensive if our training set consists of a very large number of datapoints. Stochastic gradient descent (SGD) trains the model using single data points at a time.
 
 This boils down to replacing the updates to:
 
