@@ -36,6 +36,7 @@ copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   utterances:
+    repo                 : "ranjit002/ranjit002.github.io"
     theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : "pathname" #  (default)
     label                : "comment"
