@@ -9,7 +9,7 @@ tags:
   - Beginners
 ---
 
-Ever wondered how your phone can recognize your face or how Google sorts spam emails? Behind these marvels is a field called **machine learning**, where algorithms learn patterns from data to make predictions or decisions.
+Ever wondered how your phone can recognize your face or how Google sorts spam emails? Behind these feats is **machine learning**, where models with a large number of parameters self learn patterns from data to make predictions/decisions.
 
 In this post, I’ll explore the three main types of machine learning, the importance of preprocessing, and how simple models like the **perceptron** and **logistic regression** work under the hood.
 
