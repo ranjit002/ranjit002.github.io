@@ -185,7 +185,7 @@ A reason standardisation helps gradient descent is that it makes it easier to fi
 
 ## **Stochastic gradient descent**
 
-In the perceptron algorithm we used [updates](https://www.notion.so/Machine-Learning-ff5c393511054d4eb253d9b52ae9f6df?pvs=21) that required us to iterate over the entire training set. This can be very computationally expensive if our training set consists of a very large number of datapoints. Stochastic gradient descent (SGD) trains the model using single data points at a time.
+In the [perceptron](#perceptron) algorithm we used that required us to iterate over the entire training set. This can be very computationally expensive if our training set consists of a very large number of datapoints. Stochastic gradient descent (SGD) trains the model using single data points at a time.
 
 This boils down to replacing the updates to:
 
@@ -268,7 +268,7 @@ To make sure that each flower type is represented equally we stratify the data s
 
 ---
 
-We now [scale the features](https://www.notion.so/Machine-Learning-ff5c393511054d4eb253d9b52ae9f6df?pvs=21) so that they have $\mu=0,\space{} \sigma=1$:
+We now [scale the features](#improving-gradient-descent-through-feature-scaling) so that they have $\mu=0,\space{} \sigma=1$:
 
 ```python
 from sklearn.preprocessing import StandardScaler
@@ -405,7 +405,7 @@ Which is exactly what we had for our perceptron algorithm! Except now $y^i$ is n
 
 ### Training a logistic regression model with scikit-learn
 
-The data will be preprocessed exactly as it was in the [perceptron](https://www.notion.so/Machine-Learning-ff5c393511054d4eb253d9b52ae9f6df?pvs=21) section.
+The data will be preprocessed exactly as it was in the [perceptron](#perceptron) section.
 
 ```python
 from sklearn.linear_model import LogisticRegression
@@ -414,7 +414,7 @@ model_lr = LogisticRegression(C=100.0, solver='lbfgs', multi_class='ovr')
 model_lr.fit(X_train_std, y_train)
 ```
 
-Ignore C=100.0, this is a separate technique to reduce overfitting, will be discussed in the [regularisation section](https://www.notion.so/Machine-Learning-ff5c393511054d4eb253d9b52ae9f6df?pvs=21). 
+Ignore C=100.0, this is a separate technique to reduce overfitting, will be discussed in the [regularisation section](#regularisation). 
 
 NOTE: For minimising convex loss functions, such as the logistic regression loss, it is recommended to use more advanced approaches than SGD. Sklearn implements a range of optimisation algorithms, which can be selected via the solver parameter, namely: 'newton-cg', 'lbfgs', 'liblinear', 'sag', and 'saga'.
 
