@@ -170,7 +170,17 @@
       </section>
     {% when "utterances" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
-      <section id="utterances-comments"></section>
+      <!--<section id="utterances-comments"></section>-->
+      <div id="utterances-comments"></div>
+      <script
+        src="https://utteranc.es/client.js"
+        repo="{{ site.comments.utterances.repo }}"
+        issue-term="{{ site.comments.utterances['issue-term'] }}"
+        theme="{{ site.comments.utterances.theme }}"
+        label="{{ site.comments.utterances.label }}"
+        crossorigin="anonymous"
+        async>
+      </script>
     {% when "giscus" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="giscus-comments"></section>
