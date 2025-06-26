@@ -11,17 +11,17 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Ranjit Singh's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Ranjit Singh"
+description              : "A welcoming space for sharing  insights, experiments and thoughts; everything from machine learning and quantum mechanics to materials science, photography, and the everyday curiosities that catch my eye."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,15 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Ranjit Singh"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Hey, I'm Ranjit. Sharing whatever's on my mind, from ML experiments and quantum quirks to photo adventures."
+  location         : 
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:ranjits2570(at)gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -211,6 +211,7 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
+  math_engine: mathjax
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
@@ -218,6 +219,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+mathjax: true
 
 
 # Sass/SCSS
