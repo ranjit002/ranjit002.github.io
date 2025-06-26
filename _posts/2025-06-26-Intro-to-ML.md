@@ -367,7 +367,9 @@ $$
 \mathcal{L}=\prod_{i=1}^n p(y^i|\underline{x}^i;\underline{w},b)
 $$
 
-Now the probability $p(y^i|\underline{x}^i;\underline{w},b)$ is given by $\sigma(z)$ if $y^i=0$ and  $1-\sigma(z)$ if $y^i=1$.
+Now the probability $p(y^i \mid \underline{x}^i;\underline{w},b)$ is given by 
+
+$\sigma(z)$ if $y^i=0$ and  $1-\sigma(z)$ if $y^i=1$.
 
 This can be written as $\sigma(z^i)^{y^i}(1-\sigma(z^i))^{1-y^i}$.
 
