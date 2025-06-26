@@ -7,7 +7,6 @@ tags:
   - Machine Learning
   - AI
   - Beginners
-comments: true
 ---
 
 Ever wondered how your phone can recognize your face or how Google sorts spam emails? Behind these feats is **machine learning**, where models with a large number of parameters self learn patterns from data to make predictions/decisions.
